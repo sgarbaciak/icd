@@ -23,3 +23,7 @@ Development mode whit hot reload:
 ```sh
 npm run dev
 ```
+Run tests
+```sh
+npm test
+```
