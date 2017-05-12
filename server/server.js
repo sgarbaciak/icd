@@ -60,3 +60,5 @@ passport.deserializeUser((id, done) => {
 app.listen(3636, () => {
     console.log('ICD listening on port 3636...!');
 });
+module.exports = app;  
+
