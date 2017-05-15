@@ -25,9 +25,6 @@ describe('/POST user', () => {
                 done();
             });
     });
-});
-
-describe('/POST user', () => {
     it('It should not autheticate to app', (done) => {
         let login = {
             login: "admin",
